@@ -1,0 +1,3 @@
+# R Factor Variable Subsetting Bug
+
+This repository demonstrates a common yet subtle error in R programming related to subsetting data frames based on factor variables.  When comparing factor levels to character strings using the '==' operator, unexpected results can occur due to the internal integer representation of factors.  The provided code shows this problem and the solution outlines how to correctly perform the comparison to get the expected results. 
